@@ -1,0 +1,47 @@
+{
+    "HTML & CSS" : [
+        {
+            "title": "Blog Preview Card",
+            "description": "Design of simple and classic blog preview card component with HTML & CSS",
+            "image": "blogpreviewcard",
+            "link": "/"
+        },
+        {
+            "title": "Mortgage Calculator",
+            "description": "Design of the natural and active states of Mortgage repayment calculator",
+            "image": "mortgagerepaymentcalculator",
+            "link": "/"
+        }
+    ],
+    "JavaScript": [
+        {
+            "title": "Ecommerce Product Page",
+            "description": "Development of standard, responsive and interactive ecommerce product page",
+            "image": "ecommerceproductpage",
+            "link": "/"
+        },
+        {
+            "title": "Ecommerce Product Page",
+            "description": "Development of standard, responsive and interactive ecommerce product page",
+            "image": "ecommerceproductpage",
+            "link": "/"
+        }
+    ],
+    "ReactJS" : [
+        {
+            "title": "Quiz App",
+            "description": "Simple but smart Frontend Development Quiz App developed with ReactJS",
+            "image": "quizApp",
+            "link": "/"
+        },
+        {
+            "title": "Quiz App",
+            "description": "Simple but smart Frontend Development Quiz App developed with ReactJS",
+            "image": "quizApp",
+            "link": "/"
+        }
+    ],
+    "Fullstack" : [
+    
+    ]
+}

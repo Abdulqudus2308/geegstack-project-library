@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    /* Header */
+header > div{
+    background-color: #134544;
+    padding: 40px 10% 0px; 
+    
+}
+header #logo {
+    width: 150px;
+}
+header #join-link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid hsl(120, 100%, 65%) ;
+}
+div#intro {
+    text-align: center;
+    padding: 50px 0px;
+    color: white;
+}
+div#intro h1{
+    font-family: "DM Serif Display", serif;
+    font-size: 3.5rem;
+    max-width: 500px;
+    margin: auto;
+}
+div#intro h1 > span{
+    background-image: linear-gradient(hsl(120, 100%, 65%), hsl(120, 100%, 65%));
+    background-size:100% 5px ;
+    background-position: 0px 90%;
+    background-repeat: no-repeat;
+    font-family: "DM Serif Display", serif;
+}
+div#intro p{
+    margin-top: 25px;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+    /* Main */
+main #projects-header{
+    padding: 2.5% 0px;
+    width: 95%;
+    margin: auto;
+}
+main #projects-header h2{
+    font-size: 3rem;
+    font-family: "DM Serif Display", serif;
+    color: #134544;
+}
+#links-container {
+    text-align: center;
+}
+#links-container > a {
+    display: inline-block;
+    width: 24%;
+    padding: 15px;
+    color: white;
+    background-color: #134544;
+    text-decoration: none;
+    font-weight: 600;
+}
+#links-container > a:hover, #links-container > a.active {
+    background-color: #28918a;
+}
+section.projects-section{
+    margin: 100px 0px;
+}
+.projects-section > h2 {
+    background-color: #134544;
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    width: 95%;
+    margin: auto;
+    padding: 15px 2.5%;
+    color: white;
+}
+.projects {
+    width: 95%;
+    margin: 20px auto;
+}
+.projects  article{
+    width: 100%;
+    background-color: #134544;
+    color: white;
+    border-radius: 5px;
+    max-width: 300px;
+    border: 1px solid #134544;
+}
+.projects  article img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+.projects  article div {
+    padding: 10px 20px 20px;
+}
+.projects  article div > * {
+    margin: 7px 0px;
+}
+article a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 10px;
+    color: white;
+    background-color: #28918a;
+}
+article a:hover{
+    background-color: #207973;
+}
+
+
+    /* foooter */
+footer{
+    background-color: #134544;
+    padding: 35px;
+    text-align: center;
+}
+footer img {
+    width: 30px;
+    margin: 10px;
+}
+footer > * {
+    margin: 15px 0px;
+    font-weight: 600;
+}
+footer > img{
+    width: 150px;
+}
+.slick-slide >  div {
+    width: 95%;
+}
+@media screen and (max-width:600px) {
+    header > div {
+        padding: 30px 5% 0px ;
+    }
+    header#logo {
+        width: 120px;
+    }
+    header #join-link, div#intro p {
+        font-size: 0.9rem;
+    }
+    div#intro h1 {
+        font-size: 2.5rem;
+    }
+    main #projects-header h2 {
+        font-size: 2rem;
+    }
+    
+    #links-container > a {
+        padding: 7px;
+        font-size: 0.8rem;
+        width: unset;
+    }
+    .projects,  main #projects-header{
+        width: 90%;
+    }
+    .projects-section >  h2 {
+        width: 90%;
+    }
+    .projects article {
+        width: 100%;
+    }
+    .slick-slide >  div {
+        width: 100%;
+    }
+}
