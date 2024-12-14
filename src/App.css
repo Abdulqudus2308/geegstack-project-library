@@ -7,7 +7,9 @@
     box-sizing: border-box;
     font-family: "Karla", sans-serif;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 .flex{
     display: flex;
     align-items: center;
@@ -174,6 +176,7 @@ footer > img{
     }
     .projects article {
         width: 100%;
+        max-width: unset;
     }
     .slick-slide >  div {
         width: 100%;
