@@ -10,4 +10,3 @@ const imgConfigs = {
     ecommerceproductpage: ecommerce,
 }
 export default imgConfigs
-

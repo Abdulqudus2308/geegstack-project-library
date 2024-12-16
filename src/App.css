@@ -56,9 +56,13 @@ div#intro p{
 }
     /* Main */
 main #projects-header{
-    padding: 2.5% 0px;
+    padding: 1.5% 0px;
     width: 95%;
-    margin: auto;
+    margin: 50px;
+    position: sticky;
+    top:0px;
+    background-color: white;
+    z-index: 2;
 }
 main #projects-header h2{
     font-size: 3rem;
@@ -81,7 +85,8 @@ main #projects-header h2{
     background-color: #28918a;
 }
 section.projects-section{
-    margin: 100px 0px;
+    padding-top: 65px;
+    margin-top: 0px;
 }
 .projects-section > h2 {
     background-color: #134544;
@@ -131,6 +136,7 @@ footer{
     background-color: #134544;
     padding: 35px;
     text-align: center;
+    color: white;
 }
 footer img {
     width: 30px;
@@ -149,9 +155,13 @@ footer > img{
 @media screen and (max-width:600px) {
     header > div {
         padding: 30px 5% 0px ;
+        height: 80vh;
     }
     header#logo {
         width: 120px;
+    }
+    div#intro {
+        margin-top: 50px;
     }
     header #join-link, div#intro p {
         font-size: 0.9rem;
